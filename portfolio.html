@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+
+    <!-- Style CSS -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!-- <header class="container-fluid">
+      <div class="row align-items-center name">
+        <div class="col-md-2 text-center">
+          <h1>Luc Burns</h1>
+        </div>
+        <div class="col-md-10" id="nav">
+          <ul class="nav align-items-center justify-content-center">
+            <li class="nav-item border-right">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item border-right">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header> -->
+
+    <header class="container-fluid">
+      <div class="row justify-content-between header-row">
+          <div class="col-md-3 text-center name">
+              <h1>Luc Burns</h1>
+          </div>
+          <div class="col-md-6 align-self-center">
+              <ul class="nav justify-content-center">
+                  <li class="nav-item">
+                    <a class="nav-link active border-right" aria-current="page" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link border-right" href="portfolio.html">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+          </div>
+      </div>
+  </header>
+
+    <div class="container portfolio-container">
+      <div class="row padding">
+        <div class="col">
+          <h1>Portfolio</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <hr />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <img src="images/chess.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text text-center">The Queen's Gambit</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img src="images/pieces.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text text-center">A Fun Game</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img src="images/word-tiles.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text text-center">Scrabble</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

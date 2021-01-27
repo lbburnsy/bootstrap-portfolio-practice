@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Crimson Text', serif;
+    background-color: rgb(231, 231, 231);
+}
+
+/* .name {
+    background-color: teal;
+    height: 100px;
+    color: white;
+}
+
+h1  {
+    font-weight: 600;
+}
+
+#nav {
+    background-color: whitesmoke;
+    height: 75px;
+    box-shadow: 0px 1px 10px gray;
+    color: gray;
+} */
+
+header {
+    background-color: whitesmoke;
+    box-shadow: 0px 2px 10px lightgray;
+}
+
+.name {
+    background-color: teal;
+    color: white;
+    padding: 20px 0px;
+}
+
+.nav {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+    font-size: 25px;
+}
+
+a:hover {
+    color: teal;
+}
+
+.border-right {
+    border-right: 2px solid lightgray;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.portfolio-container {
+    width: 90%;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 10px gray;
+}
+
+.padding {
+    padding-top: 20px;
+}
+
+.padding div h1 {
+    color: teal;
+}
+
+hr {
+    border-top: 5px solid gray;
+}
+
+@media (min-width: 768px) {
+    .header-row {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
